@@ -1,1 +1,1 @@
-include ':app', ':mvpboilerplate'
+include ':app', ':basemvp'
