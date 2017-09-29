@@ -1,8 +1,8 @@
 package eu.giovannidefrancesco.basemvp;
 
 /**
- * Created by jibbo on 9/21/17.
+ * This interface defines a view.
+ * Since a view can display anything, it does not define any method.
  */
-
 public interface IView {
 }

@@ -3,10 +3,11 @@ package eu.giovannidefrancesco.basemvp;
 import android.util.Log;
 
 /**
- * Created by jibbo on 9/21/17.
+ * The goal of this class is to reduce boilerplate by offering a default implementation
+ * for lifecycle events. In this way, the developer do not have to code those methods all the times,
+ * if not needed. It also produces a warning message in the logcat whenever a method is
+ * called, but not overridden by the real implementation of this class.
  */
-
-
 @SuppressWarnings("WeakerAccess")
 public abstract class BasePresenter implements IPresenter {
 

@@ -1,9 +1,9 @@
 package eu.giovannidefrancesco.basemvp;
 
 /**
- * Created by jibbo on 9/21/17.
+ * This interface defines a Presenter.
+ * When testing the view, this interface can be mocked.
  */
-
 public interface IPresenter {
     void onViewCreated();
     void onViewStarted();
