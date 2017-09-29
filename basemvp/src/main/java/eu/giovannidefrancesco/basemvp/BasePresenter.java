@@ -1,7 +1,5 @@
 package eu.giovannidefrancesco.basemvp;
 
-import android.util.Log;
-
 /**
  * The goal of this class is to reduce boilerplate by offering a default implementation
  * for lifecycle events. In this way, the developer do not have to code those methods all the times,
@@ -15,9 +13,10 @@ public abstract class BasePresenter implements IPresenter {
 
     private IView mView;
 
-    private BasePresenter(){}
+    private BasePresenter() {
+    }
 
-    public BasePresenter(IView view){
+    public BasePresenter(IView view) {
         mView = view;
     }
 
@@ -27,36 +26,36 @@ public abstract class BasePresenter implements IPresenter {
 
     @Override
     public void onViewCreated() {
-        Log.w(TAG, "onViewCreated() called, but not overriden.");
+        throw new RuntimeException("onViewCreated() called on BasePresenter");
     }
 
     @Override
     public void onViewStarted() {
-        Log.w(TAG, "onViewStarted() called, but not overriden");
+        throw new RuntimeException("onViewStarted() called on BasePresenter");
     }
 
     @Override
     public void onViewResumed() {
-        Log.w(TAG, "onViewResumed() called, but not overriden");
+        throw new RuntimeException("onViewResumed() called on BasePresenter");
     }
 
     @Override
     public void onViewPaused() {
-        Log.w(TAG, "onViewPaused() called, but not overriden");
+        throw new RuntimeException("onViewPaused() called on BasePresenter");
     }
 
     @Override
     public void onViewStop() {
-        Log.w(TAG, "onViewStop() called, but not overriden");
+        throw new RuntimeException("onViewStop() called on BasePresenter");
     }
 
     @Override
     public void onViewAttached() {
-        Log.w(TAG, "onViewAttached() called, but not overriden");
+        throw new RuntimeException("onViewAttached() called on BasePresenter");
     }
 
     @Override
     public void onViewDetached() {
-        Log.w(TAG, "onViewDetached() called, but not overriden");
+        throw new RuntimeException("onViewDetached() called on BasePresenter");
     }
 }
