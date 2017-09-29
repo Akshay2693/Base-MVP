@@ -1,5 +1,26 @@
 apply plugin: 'com.android.library'
 
+ext {
+    // Where you will see your artifact in Bintray's web interface
+    // The "bintrayName" should match the name of the Bintray repro.
+    bintrayRepo = 'maven'
+    bintrayName = 'Base-MVP'
+
+    // Maven metadata
+    publishedGroupId = 'eu.giovannidefrancesco.basemvp'
+    libraryName = 'Base-MVP'
+    // Save yourself a head ache, and set this equal to the name of the Android Studio library
+    // module. The artifact name needs to match the name of the library.
+    artifact = 'basemvp'
+
+    libraryDescription = 'A tiny, fully extensible MVP implementation for Android in pure Java, which goal is to provide common interfaces for tests that need to easily mock Views and Presenters.'
+    libraryVersion = '0.1'
+
+    developerId = 'jibbo'
+    developerName = 'Giovanni De Francesco'
+    developerEmail = 'posta.giovanni.defrancesco@gmail.com'
+}
+
 android {
     compileSdkVersion 25
     buildToolsVersion "25.0.3"
@@ -8,7 +29,7 @@ android {
         minSdkVersion 9
         targetSdkVersion 25
         versionCode 1
-        versionName "1.0"
+        versionName "0.1"
 
         testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
 
@@ -29,3 +50,6 @@ dependencies {
     compile 'com.android.support:appcompat-v7:25.3.1'
     testCompile 'junit:junit:4.12'
 }
+
+apply from: 'https://raw.githubusercontent.com/jibbo/JCenter/master/installv1.gradle'
+apply from: 'https://raw.githubusercontent.com/jibbo/JCenter/master/bintrayv1.gradle'
