@@ -1,4 +1,4 @@
-package eu.giovannidefrancesco.mvpboilerplate;
+package eu.giovannidefrancesco.basemvp;
 
 import android.util.Log;
 

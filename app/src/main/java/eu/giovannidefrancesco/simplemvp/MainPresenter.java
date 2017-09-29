@@ -1,7 +1,7 @@
 package eu.giovannidefrancesco.simplemvp;
 
-import eu.giovannidefrancesco.mvpboilerplate.BaseTypedPresenter;
-import eu.giovannidefrancesco.mvpboilerplate.ITypedView;
+import eu.giovannidefrancesco.basemvp.BaseTypedPresenter;
+import eu.giovannidefrancesco.basemvp.ITypedView;
 
 /**
  * Created by jibbo on 9/21/17.

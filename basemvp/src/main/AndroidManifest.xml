@@ -1,6 +1,6 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
 
-          package="eu.giovannidefrancesco.mvpboilerplate"
+          package="eu.giovannidefrancesco.basemvp"
 >
 
     <application android:allowBackup="true"

@@ -1,4 +1,4 @@
-package eu.giovannidefrancesco.mvpboilerplate;
+package eu.giovannidefrancesco.basemvp;
 
 /**
  * Created by jibbo on 9/21/17.

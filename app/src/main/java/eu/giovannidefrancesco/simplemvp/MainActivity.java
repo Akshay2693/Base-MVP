@@ -6,8 +6,8 @@ import android.util.Log;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import eu.giovannidefrancesco.mvpboilerplate.IPresenter;
-import eu.giovannidefrancesco.mvpboilerplate.ITypedView;
+import eu.giovannidefrancesco.basemvp.IPresenter;
+import eu.giovannidefrancesco.basemvp.ITypedView;
 
 public class MainActivity extends AppCompatActivity implements ITypedView<String, Throwable> {
 
