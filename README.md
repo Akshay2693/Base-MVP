@@ -2,6 +2,9 @@
 A tiny, fully extensible MVP implementation for Android in pure Java, which goal is to provide
 common interfaces for tests that need to easily mock Views and Presenters.
 
+[![Android Arsenal](https://img.shields.io/badge/Android%20Arsenal-Base--MVP-brightgreen.svg?style=flat)](https://android-arsenal.com/details/1/6299) [![API](https://img.shields.io/badge/API-14%2B-orange.svg?style=flat)](https://android-arsenal.com/api?level=14) [ ![Download](https://api.bintray.com/packages/jibbo/maven/Base-MVP/images/download.svg) ](https://bintray.com/jibbo/maven/Base-MVP/_latestVersion) <a href="http://www.methodscount.com/?lib=eu.giovannidefrancesco.basemvp%3Abasemvp%3A0.2"><img src="https://img.shields.io/badge/Methods and size-25 | 4 KB-e91e63.svg"/></a> ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+
+
 ## Download
 
 Simple add the following line to your **build.gradle**
