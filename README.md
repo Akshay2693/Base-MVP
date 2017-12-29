@@ -6,7 +6,7 @@ common interfaces for tests that need to easily mock Views and Presenters.
 
 Simple add the following line to your **build.gradle**
 
-`compile 'eu.giovannidefrancesco.basemvp:basemvp:0.1'`
+`compile 'eu.giovannidefrancesco.basemvp:basemvp:0.2'`
 
 ## Usage
 
